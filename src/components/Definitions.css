@@ -1,0 +1,46 @@
+.definition {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  border: 3px solid gray;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px){
+  .definition{
+    width: 80%;
+  }
+}
+
+.definition__msg {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.definition > audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+ 
+.definition__content > hr{
+    margin: 0.3rem 0;
+    border: 1px solid black;
+}
+
+.definition__contentOne{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.definition__contentSecond{
+    font-size: 0.8rem;
+    color: #303030;
+}
+.definition__contentSecond > span{
+    font-weight: bold;
+    font-size: 0.85rem;
+}
